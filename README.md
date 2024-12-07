@@ -1,10 +1,16 @@
 # BackgammonNN - *Osama Dabbousi and Vishesh Jain*
 
+
 ## Introduction
 Backgammon is an incredibly interesting game to teach an AI to play.
 The high branching factor caused by its dice rolls means that many traditional AI methods such as Monte Carlo Tree Search are not as effective as they are on more deterministic games such as chess. 
 Inspired by the chess turbo-champ algorithm created by Alan turing, and TD-gammon for backgammon, the goal of this project was to implement three different styles of AI:
 a single turn informed heuristic, a heuristic based MCTS, and a Neural Network based MCTS to compare their relative success rates. 
+
+## Demo
+![A gif of a simulated game of backgammon between the MCTS algorithm and itself](images/backgammon_full_game_animation.gif)
+The above is a visualization of a game played between the MCTS and itself rendered using matplotlib's funcanimation
+library.
 
 ## Methodology
 ### Creating Backgammon
