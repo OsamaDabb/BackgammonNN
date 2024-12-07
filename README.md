@@ -9,6 +9,8 @@ a single turn informed heuristic, a heuristic based MCTS, and a Neural Network b
 
 ## Demo
 ![A gif of a simulated game of backgammon between the MCTS algorithm and itself](images/backgammon_full_game_animation.gif)
+
+
 The above is a visualization of a game played between the MCTS and itself rendered using matplotlib's funcanimation
 library.
 
